@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Connections {
 
 	String username = "root";
-	String password = "dell";
+	String password = "****";
 	String url = "jdbc:mysql://localhost:3306/cms";
 	public Connection getConnection() throws Exception 
 	{

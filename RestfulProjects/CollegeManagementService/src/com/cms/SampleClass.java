@@ -9,7 +9,7 @@ public class SampleClass {
 
 	public static void main(String[] args) throws Exception {
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms", "root", "dell");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms", "root", "****");
 		Statement st = con.createStatement();
 		String sql = "Select * from users";
 		int a = 1_2_3;
